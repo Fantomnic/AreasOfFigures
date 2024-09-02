@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreasOfFigures", "AreasOfFigures\AreasOfFigures.csproj", "{ABA77953-C712-4F47-B15A-C70CE945A17D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreasOfFigures", "AreasOfFigures\AreasOfFigures.csproj", "{ABA77953-C712-4F47-B15A-C70CE945A17D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAreasOfFigures", "TestAreasOfFigures\TestAreasOfFigures.csproj", "{3536322C-8052-4E31-8EA5-39DEA71B6531}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ABA77953-C712-4F47-B15A-C70CE945A17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABA77953-C712-4F47-B15A-C70CE945A17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABA77953-C712-4F47-B15A-C70CE945A17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3536322C-8052-4E31-8EA5-39DEA71B6531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3536322C-8052-4E31-8EA5-39DEA71B6531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3536322C-8052-4E31-8EA5-39DEA71B6531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3536322C-8052-4E31-8EA5-39DEA71B6531}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

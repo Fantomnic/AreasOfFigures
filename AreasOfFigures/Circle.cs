@@ -6,6 +6,8 @@
 
         public Circle (double radius)
         {
+            if (radius < 0)
+                throw new Exception("Радиус не может быть отрицательным!");
             this.radius = radius;
         }
 

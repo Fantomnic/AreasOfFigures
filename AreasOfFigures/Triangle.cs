@@ -2,12 +2,12 @@
 {
     public class Triangle : Figure
     {
-        double side1;
-        double side2;
-        double side3;
+        double side1, side2, side3;
 
         public Triangle(double side1, double side2, double side3)
         {
+            if (side1 <= 0 || side2 <= 0 || side3 <= 0)
+                throw new Exception("Сторона треугольника должна быть положительной!");
             this.side1 = side1;
             this.side2 = side2;
             this.side3 = side3;
