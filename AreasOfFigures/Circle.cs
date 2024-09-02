@@ -1,6 +1,6 @@
 ﻿namespace AreasOfFigures
 {
-    public class Circle
+    public class Circle : Figure
     {
         double radius;
 
@@ -9,7 +9,7 @@
             this.radius = radius;
         }
 
-        public double Area()
+        public override double Area()
         {
             return Math.PI * radius * radius;
         }
